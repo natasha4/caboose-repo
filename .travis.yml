@@ -7,7 +7,7 @@ deploy:
   access_key_id: $ACCESSKEYID
   secret_access_key:
     secure: "$SECRETACCESSKEY"
-  region: "us-east-2a"
+  region: "us-east-2"
   app: "Caboose"
   env: "caboose-env"
   bucket-name: "elasticbeanstalk-us-east-2-657152641350"
