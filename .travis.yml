@@ -10,3 +10,4 @@ deploy:
   region: "us-east-2a"
   app: "Caboose"
   env: "caboose-env"
+  bucket-name: "elasticbeanstalk-us-east-2-657152641350"
