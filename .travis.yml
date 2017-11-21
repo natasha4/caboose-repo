@@ -12,3 +12,5 @@ deploy:
   env: "caboose-env"
   bucket-name: "elasticbeanstalk-us-east-2-657152641350"
   zip_file: 'target/caboose-1.0-SNAPSHOT.jar'
+notifications:
+  email: false
