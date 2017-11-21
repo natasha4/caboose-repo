@@ -1,6 +1,8 @@
 language: java
 git:
   depth: 1
+install:
+  script: "mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V -P aws_eb_deployment"
 deploy:
   skip_cleanup: true
   provider: elasticbeanstalk
