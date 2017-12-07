@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Test Javascript</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript">
+  var jsver = 1.0;
+</script>
+    <script language="Javascript1.1">
+  jsver = 1.1;
+</script>
+    <script language="Javascript1.2">89
+  jsver = 1.2;
+</script>
+    <script language="Javascript1.3">
+  jsver = 1.3;
+</script>
+    <script language="Javascript1.4">
+  jsver = 1.4;
+</script>
+    <script language="Javascript1.5">
+  jsver = 1.5;
+</script>
+    <script language="Javascript1.6">
+  jsver = 1.6;
+</script>
+    <script language="Javascript1.7">
+  jsver = 1.7;
+</script>
+    <script language="Javascript1.8">
+  jsver = 1.8;
+</script>
+    <script language="Javascript1.9">
+  jsver = 1.9;
+</script>
+
+    <script type="text/javascript">
+  alert(jsver);
+</script>
+</head>
+<body>
+<h3>test javascript</h3>
+<p id="demo"></p>
+<script>
+    document.getElementById("demo").innerHTML="Test";
+
+    var person = {
+        name : 'Nata',
+        surname : 'Gorosh',
+        age : 30,
+        printPersonName : function() {return this.name + " " + this.surname;}
+    }
+
+    document.getElementById("demo").innerHTML=person.surname;
+    document.getElementById("demo").innerHTML=person.printPersonName();
+
+</script>
+
+</body>
+</html>

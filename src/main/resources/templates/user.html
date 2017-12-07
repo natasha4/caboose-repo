@@ -1,0 +1,19 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+
+<body>
+<h1>User Details</h1>
+
+<dl>
+    <dt>Login</dt>
+    <dd th:text="${user.login}"></dd>
+    <dt>Name</dt>
+    <dd th:text="${user.name}"></dd>
+</dl>
+<p>
+<a th:href="@{/}">Home</a>
+</p>
+</body>
+</html>
